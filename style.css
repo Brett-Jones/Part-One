@@ -1,0 +1,165 @@
+body{
+    font-family: Roboto;
+    font-weight: bold;
+    margin: auto;
+    
+}
+
+.learn-to-code{
+    margin: auto;
+    color: #20a8b4;
+    font-size: 30px;
+    white-space: nowrap;
+
+}
+
+header{
+    background-color: #f2f2f2; 
+    padding: 1em; 
+}
+
+.body-container{
+    padding: 2em;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+    
+}
+
+.contact-us{
+    background-color: #20a8b4;
+    width: 100%;
+    padding: 12px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+}
+
+h2{
+    margin-top: 4em;
+    
+}
+
+.link:hover{
+    color: #ff5c0f;
+} 
+
+.learn-more{
+    background-color: #20a8b4;
+    width: 100%;
+    padding: 2%;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0%;
+
+}
+
+li{
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+nav{
+    left: auto;
+
+}
+
+.code-img{
+
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+   
+    body{
+        font-family: Roboto;
+    }
+
+    button { 
+        background-color: #20a8b4;
+        width: auto;
+    
+    }
+    
+    header{
+        background-color:#f2f2f2;
+    }
+    
+    .headerLinks {
+        display: flex;
+        flex-direction: row;
+        right: auto;
+        justify-content: end;
+    }
+    
+    .parent-container-row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    
+    }
+    
+    .child-element {
+        width: em;
+        text-align: center;
+        padding: .5em;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        white-space: nowrap;
+        margin-left: 35em;
+
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-us{
+        max-width: 135px;
+
+    }
+
+    .learn-more{
+        max-width: 125px;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .code-img{
+        display: block;
+        width: 30%;
+        height: 30%;
+        padding-left: 30em;
+        
+    }
+
+    .body-container{
+        display: flex;
+        flex-direction: row;
+        white-space: nowrap;
+
+    }
+
+}
+  
